@@ -1,3 +1,11 @@
+:root{
+    font-size: 10px;
+    --mai-color: #d3ad7f;
+    --black: #131313;
+    --bg: #010103;
+    --border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -32,8 +40,8 @@
     top: 0;
     left: 0;
     z-index: 2;
-    background-color: #000;
-    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.3);
+    background-color: var(--bg)
+    border-bottom: var(--border)
 }
 
 .header section{
